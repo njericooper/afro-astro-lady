@@ -1,50 +1,24 @@
-
-/******************************************
-/* FONTS
-/*******************************************/
-
-@font-face {
-    font-family: 'aqua_grotesqueregular';
-    src: url('../fonts/aqua-webfont.eot');
-    src: url('../fonts/aqua-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/aqua-webfont.woff2') format('woff2'),
-         url('../fonts/aqua-webfont.woff') format('woff'),
-         url('../fonts/aqua-webfont.ttf') format('truetype'),
-         url('../fonts/aqua-webfont.svg#aqua_grotesqueregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/******************************************
-/* UTILITIES
-/*******************************************/
-
-/* Box Sizing */
 * {
-  -moz-box-sizing: border-box; /* Firexfox */
-  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-  box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Clearfix */
-.clearfix:before,.clearfix:after {
+.logo:before,.logo:after {
   content: "";
   display: table;
   line-height: 0;
 }
 
-.clearfix:after {
+.logo:after {
   clear: both;
 }
 
-
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
+.logo{
+    font-family: cursive;
+}
 
 html {
   margin-bottom:0;
@@ -53,7 +27,6 @@ html {
 }
 
 body {
-  font-family: OpenSans;
   font-size: 17px;
   font-weight: 300;
   color: white;
@@ -79,7 +52,7 @@ header {
 }
 
 h1 {
-  font-family: 'Abril Fatface';
+
   letter-spacing: .03em;
   font-size:22px;
   color: #ffffff;
@@ -88,33 +61,16 @@ h1 {
 }
 
 h2 {
-  font-family: 'aqua_grotesqueregular';
-  font-size: 23px;
-  color: white;
+
+    font-size: 23px;
+    color: white;
     display: block;
-  letter-spacing: .17em;
-  margin: 20px 0px;
-  text-align: center;
+    letter-spacing: .17em;
+    margin: 20px 0px;
+    text-align: center;
 }
 
-h3 {
-  font-family: 'aqua_grotesqueregular';
-  font-size: 23px;
-  color: #565656;
-  letter-spacing: .17em;
-  margin: 40px 0px;
-  text-align: center;
-}
 
-h4 {
-  font-family: 'aqua_grotesqueregular';
-  font-size: 40px;
-  color: #f33b5f;
-  letter-spacing: .08em;
-  line-height: 45px;
-  margin: 40px 0px;
-  text-align: center;
-}
 nav {
      position: relative;
     padding-top:15px;
