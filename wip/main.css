@@ -43,7 +43,7 @@ body {
 
 form {
   z-index: 3;
-  max-width: 80vw;
+  width: 80vw;
 }
 
 input, label, select, option, textarea{
