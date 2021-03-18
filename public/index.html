@@ -12,63 +12,60 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+<script src="./scripts/main.js"></script>
+<noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=930002024469210&ev=PageView&noscript=1"
+  /></noscript>
   </head>
   <body>
     <div>
       <div class='space'></div>
       <header>
-        <h1>
-          The Afro Astro Lady
-        </h1>
-      </header>
-    </div>
-      <h2 class="details">Enter Your Natal Chart Details Below</h2>
-              <span class="line1"></span>
-              <!-- form start -->
-              <div class="container">
-                <form target="_blank" action="https://formsubmit.co/6fab8b3b585d1aeae04a8e5cf2cb9db6" method="POST">
-                    <div class="form-group">
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        <h1 class="title">The Afro Astro Lady</h1>
+                    </header>
+                    <div class="form-container">
+                        <h2 class="details">Enter Your Natal Chart Details Below</h2>
+                        <form target="_blank" action="https://formsubmit.co/6fab8b3b585d1aeae04a8e5cf2cb9db6" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form" placeholder="Full Name" required>
+                                
+                                <input type="email" name="email" class="form" placeholder="Email Address" required>
+                                
+                                <input type="date" name="birthday" id="birthday" class="dob" required>
+                                
+                                <input type="text" id="city" name="city" placeholder="Austin " required>
+
+                                <input type="text" id="state" name="state" placeholder="TX " required>
+
+                                <input type="text" id="country" name="country" placeholder="USA " required>
+                                <label for="birthCert" class="label">To ensure yur reading is as accurate as possible, we'll need your exact birth time. Do you have a copy of your birth certificate? (If no, that's perfectly fine. I'll help you order one from the state you were born.)</label>
+                                <select id="birthCert" name="select">
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                                
+                                <textarea placeholder="Your Message" class="form" name="message" rows="10" required></textarea>
+                                <input type="hidden" name="_autoresponse" value="Thank you for choosing The Afro Astro Lady! Proper readings take time. Please allow 2 business days for a detailed response on the next steps for your reading. I look forward to speaking with you.">
+                                <button id="submit">Submit</button>
                             </div>
-                            <div class="col">
-                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                            </div>
-                        </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-                    </div>
-            </div>
-      <section class="selectSign">
-          <div class="container ">
-            <label for="">Select Your Zodiac Sign</label>
-              <div class="select text-center">
-                  <select id="sign1">
-                    <option value="aries">Aries</option>
-                    <option value="taurus">Taurus</option>
-                    <option value="gemini">Gemini</option>
-                    <option value="cancer">Cancer</option>
-                    <option value="leo">Leo</option>
-                    <option value="virgo">Virgo</option>
-                    <option value="libra">Libra</option>
-                    <option value="scorpio">Scorpio</option>
-                    <option value="sagittarius">Sagittarius</option>
-                    <option value="capricorn">Capricorn</option>
-                    <option value="aquarius">Aquarius</option>
-                    <option value="pisces">Pisces</option>
-                  </select>
-              </div>
-              <div class="dob">
-                  <label for="birthday">Birthday:</label>
-                  <input type="date" id="birthday" name="birthday">
-              </div>
-              <div class="buttonMain">
-                  <button id="submit">Submit</button>
-                </form>
-              </div>
-          </div>
-      </section> 
-  </body>
-</html>
+
+                    <section class="s1">
+                        <h1 class="sub-title">What Happens to the Information You Send</h1>
+                        <p class="text">
+                            You details are sent straight to my email. I begin to map out your past, present obsticals, and future turmoils and succeses. Minim VHS bicycle rights green juice cray. Seitan single-origin coffee consectetur gochujang. Twee photo booth asymmetrical, green juice anim echo park aliqua fixie ut post-ironic. Dolore forage in microdosing nisi glossier. XOXO fingerstache woke, microdosing scenester salvia selvage chambray slow-carb sunt vinyl laboris. XOXO biodiesel eu, +1 squid asymmetrical gastropub swag snackwave flexitarian. </p>
+
+                        <p class="text">Occupy microdosing shoreditch offal. Veniam wolf irony meggings air plant tacos. Vaporware thundercats trust fund +1 keffiyeh la croix austin succulents yr freegan. Cred kombucha vaporware minim, hoodie fugiat lomo prism PBR&B roof party aesthetic consectetur. Yuccie swag ethical cliche snackwave chicharrones, post-ironic palo santo ea literally direct trade hoodie dolore culpa consequat. </p>
+
+                    </section>
+
+                    <section class="s2">
+                        <h1 class="sub-title">What to Expect During a Reading</h1>
+                        <p class="text">Tattooed incididunt chambray jianbing. Shaman chartreuse authentic, humblebrag ut beard lorem hot chicken knausgaard 3 wolf moon jean shorts tempor. Photo booth pitchfork small batch af, direct trade magna art party seitan. Aliqua man braid chambray waistcoat, put a bird on it selfies roof party normcore fashion axe anim. </p>
+
+                        <p class="text">Dummy text? More like dummy thicc text, amirite?</p>
+                    </section>
+                    
+                </body>
+                </html>
