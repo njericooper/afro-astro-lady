@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,800;1,300&display=swap');
+
+body, html {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: #F26627;  /* fallback for old browsers */
+    
+}
+
+.background {
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+    background: -webkit-linear-gradient(to bottom, #F26627, #F9A25C, #9BD7D1, #325D79);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F26627, #F9A25C, #9BD7D1, #325D79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*.blur{
+    backdrop-filter: blur(10rem);
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+}*/
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+p {
+    color: #FCFEF1;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+
+.row > .box{
+    margin: 1em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    padding: 1em 0;
+    text-align: center;
+    border: .15em solid #FCFEF1;
+    font-size: 1.5em;
+}
+
+.orange{
+    background-color: #F26627;
+    color: #9BD7D1;
+}
+
+.light-orange {
+    background-color: #F9A25C;
+    color: #325D79 ;
+}
+
+.light-blue{
+    background-color: #9BD7D1;
+    color: #F26627;
+}
+
+.dark-blue{
+    background-color: #325D79;
+    color: #F9A25C;
+}
