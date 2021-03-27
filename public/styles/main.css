@@ -15,14 +15,15 @@ body {
 }
 
 .sub-title{
-  margin-top: 0%;
-  padding: 2rem;
+  margin: 0%;
+  padding: 2rem  0 0 2rem;
+
 }
 
 
 .s1 {
-  background-color: #FFF587;
-  color: #7D6B7D;
+  background-color: #F26627;
+  color: white;
 }
 
 .s2 {
@@ -30,15 +31,12 @@ body {
 }
 
 section {
-  padding: 0;
-  margin: 0;
   z-index: 4;
 }
 
 .text {
   line-height: 1.8rem;
   font-size: 1.2rem;
-  margin: 0%;
   padding: 0 3rem 2rem 3rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
