@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,800;1,300&display=swap');
 
-body, html {
+body{
     font-family: 'Karla', sans-serif;
     margin-bottom: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
     text-align: center;
     background-color: black;
     color: white;
    /* background: #F26627;   fallback for old browsers */
-    
 }
 
 .background {
@@ -93,4 +94,29 @@ h2{
 .dark-blue{
     background-color: #325D79;
     color: #F9A25C;
+}
+
+.footerText, .title{
+    text-align: center;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    background: #325D79;
+    font-size: 1rem;
+    color: #F9A25C;
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: .5rem 0 .8rem 0;
+    z-index: 3;
 }
