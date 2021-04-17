@@ -1,5 +1,5 @@
 .form-container {
-    background:url("https://ucarecdn.com/e8f609b6-b598-44c5-a227-02028e4159cb/-/rotate/90/");
+    /*background:url("https://ucarecdn.com/e8f609b6-b598-44c5-a227-02028e4159cb/-/rotate/90/");*/
     display: flex;
     flex-flow: column;
     padding: 0;
@@ -9,9 +9,9 @@
     min-height: 15em;
     height: 50%;
     align-self: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     align-items: center;
     justify-content: center;
     width: 100%;

@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
 
 .title {
-  font-family: 'Bad Script', cursive;
+  font-family: 'Dancing Script', cursive;  
   color: white;
   text-align: center;
 }
@@ -10,9 +9,12 @@
 .sub-title{
   margin: 0%;
   padding: 1rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: .02em;
 }
 
-.s1 {
+/* .s1 {
   background-color: #F26627;
   color: white;
 }
@@ -20,26 +22,26 @@
 .s2 {
   background-color: #9BD7D1;
   color: #325D79;
-}
+} */
 
 section {
   z-index: 4;
 }
 
-.dark-text{
+/* .dark-text{
   color: #325D79;
 }
 
 .light-text {
   color: white;
-}
+} */
 
 .words{
   margin: 0;
   line-height: 1.8rem;
   font-size: 1.2rem;
   padding: 0 3rem 2rem 3rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   kerning: 35%;
 }
