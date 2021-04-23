@@ -12,9 +12,15 @@ html, body{
    /* background: #F26627;   fallback for old browsers */
 }
 
+.container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
 
-div.logo{
-    content: url(https://ucarecdn.com/16ab75e9-f389-48c2-b18e-24b5e9fed492/);
+.logo{
+    /*content: url(https://ucarecdn.com/16ab75e9-f389-48c2-b18e-24b5e9fed492/);*/
     width: 20rem;
     align-self: center;
 }
@@ -43,7 +49,8 @@ h2{
 }
 
 .text {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 5%;
 }
 
 .tasks{
