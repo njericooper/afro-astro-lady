@@ -64,15 +64,18 @@ h2{
 
 }
 
-.row > .box{
+.row > .color{
     margin: 1em;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    padding: 1em 0;
+    padding: 1em;
     text-align: center;
     /*border: .15em solid #FCFEF1;*/
     font-size: 1.5em;
+}
+
+.color {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
 }
 
 .orange{
