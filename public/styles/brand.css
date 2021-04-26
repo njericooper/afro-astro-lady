@@ -78,24 +78,67 @@ h2{
     width: 3rem;
 }
 
-.orange{
-    background-color: #F26627;
-    color: #9BD7D1;
+.purple {
+    background-color: #6A3D52;
 }
 
-.light-orange {
-    background-color: #F9A25C;
-    color: #325D79 ;
+.lavender {
+    background-color: #A28BFA;
 }
 
-.light-blue{
-    background-color: #9BD7D1;
-    color: #F26627;
+.gold{
+    background-color: #D18237;
 }
 
 .dark-blue{
-    background-color: #325D79;
-    color: #F9A25C;
+    background-color: #5139C1;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: auto auto auto auto;
+    grid-template-areas: "img1 img2 img3 img4";
+    padding: 0;
+    height: 400px;
+}
+
+.tab{
+    display: grid;
+    height:100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.link-logo{
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.fonts{
+    padding: 5%;
+    word-wrap: break-word;
+}
+
+.dancing-upper{
+    font-family: dancing script;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.dancing-lower{
+    font-family: dancing script;
+    letter-spacing: .2em;
+}
+
+.mon-upper{
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+.mon-lower{
+    letter-spacing: .3em;
 }
 
 .footerText, .title{
@@ -113,12 +156,26 @@ footer {
     display: flex;
     flex-flow: row wrap;
     position: absolute;
-    background: #222491;
-    color: #FAC7F8;
+    background: #6A3D52;
+    color: #A28BFA;
     height: 2.5rem;
     font-size: 1rem;
     width: 100%;
     justify-content: center;
     align-content: center;
     padding: .5rem 0 .8rem 0;
+}
+
+@media only screen and (max-width: 414px){
+    .imgs{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "img1 img2" "img3 img4";
+      }
+    .img3, .img4{
+        padding-bottom: 15%;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
 }
