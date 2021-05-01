@@ -67,8 +67,11 @@ nav {
 
 .s2 {
   padding-bottom: 1rem;
-
 } 
+
+.s2 >.sub-title {
+  color: #D18237;
+}
 
 section {
   z-index: 4;

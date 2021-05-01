@@ -49,18 +49,19 @@
                 
                 <input type="date" name="birthday" id="birthday" class="dob" required>
                 
-                <input type="text" id="city" name="city" placeholder="Austin " required>
+                <input type="text" id="city" name="city" placeholder="City of Birth " required>
 
-                <input type="text" id="state" name="state" placeholder="TX " required>
+                <input type="text" id="state" name="state" placeholder="State of Birth " required>
 
-                <input type="text" id="country" name="country" placeholder="USA " required>
+                <input type="text" id="country" name="country" placeholder="Country of Birth" required>
                 <label for="birthCert" class="label">To ensure your reading is as accurate as possible, we'll need your exact birth time. Do you have a copy of your birth certificate? (If no, that's perfectly fine. I'll help you order one from the state you were born.)</label>
                 <select id="birthCert" name="select">
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
                 
-                <textarea placeholder="Your Message" class="form" name="message" rows="10" required></textarea>
+                <textarea placeholder="What is driving you to want to have this reading?" class="form" name="message" rows="10" required></textarea>
+                <input type="tel" name="" id="" placeholder="000-000-0000">
                 <button id="submit">Submit</button>
             </div>
         </form>
@@ -91,3 +92,8 @@
     
 </body>
 </html>
+
+
+
+
+curl -X GET https://formsubmit.co/api/get-submissions/c11d7a845e428deae3ecda6edf55a456fb2e644ea396d702abc1cfb6f8f05969
