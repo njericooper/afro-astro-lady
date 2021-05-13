@@ -10,27 +10,32 @@
     height: 100%;
     align-self: center;
     background: none;
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
     align-items: center;
     justify-content: center;
     width: 100vw;
   }
   
-  .details {
-    color: white;
-  }
+.details {
+   color: white;
+}
   
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   
-  form {
-    z-index: 3;
-  }
+form {
+  z-index: 3;
+}
+
+.form-container{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  scroll-behavior: smooth;
+  overflow-y: scroll;}
   
   input, label, select, option, textarea{
     display: flex;
@@ -53,7 +58,7 @@
     min-width: 10rem;
     max-width: 20rem;
     margin: 1.2em;
-    color: white;
+    color: #A28BFA;
     border-color: #D18237;
     background-color:transparent;
     background: transparent;
@@ -65,11 +70,11 @@
   }
   
   #submit:hover {
-    background:#caa167;
-    color:#fff;
+    background:#5139C1;
+    color:white;
   /* font-smoothing: antialiased; */
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-    border-color:#caa167;
+    border-color:white;
     transition: background 0.3s ease-in,color 0.3s ease-in;
   }
 

@@ -12,14 +12,7 @@ html, body{
    /* background: #F26627;   fallback for old browsers */
 }
 
-.form-container{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-}
+
 
 .logo{
     /*content: url(https://ucarecdn.com/16ab75e9-f389-48c2-b18e-24b5e9fed492/);*/

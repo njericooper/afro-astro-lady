@@ -4,12 +4,14 @@
 display: flex;
 flex-flow: row nowrap;
 list-style: none;
+padding-right: 5%;
 }
 
 .title-header {
-  font-family: 'Dancing Script', cursive;  
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: .15em;  
   color: white;
-  padding-left: 2%;
+  padding-right: 2%;
   width: 100%;
 }
 
@@ -37,11 +39,11 @@ nav {
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: white;
+  color: #A28BFA;
   font-size: 2em;
 }
 
-.sub-title{
+.sub-title {
   margin: 0%;
   padding: 1rem;
   text-align: left;
@@ -50,7 +52,7 @@ nav {
 .sub-title:after{
   content:' ';
     display:block;
-    border:.125rem solid #FFFFFF;
+    border:.125rem solid #A28BFA;
     border-radius:.25rem;
     -webkit-border-radius:.25em;
     -moz-border-radius:.25em;
