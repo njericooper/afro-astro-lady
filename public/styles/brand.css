@@ -136,33 +136,7 @@ h2{
     letter-spacing: .3em;
 }
 
-.footerText, .title{
-    text-align: center;
-}
 
-.footer {
-    display: flex;
-    flex-flow: row wrap;
-    position: absolute;
-    background: #6A3D52;
-    color: #A28BFA;
-    height: 6rem;
-    font-size: 1rem;
-    width: 100%;
-    justify-content: center;
-    align-content: center;
-    padding: 1rem 0 2rem 0;
-}
-
-.footer-content > a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer-content{
-    display: flex;
-    flex-flow: column;
-}
 
 @media only screen and (max-width: 414px){
     .imgs{
@@ -173,7 +147,5 @@ h2{
     .img3, .img4{
         padding-bottom: 15%;
     }
-    .footer{
-        flex-wrap: wrap;
-    }
+    
 }

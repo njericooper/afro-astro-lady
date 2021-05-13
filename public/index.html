@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/brand.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <script src="scripts/main.js"></script>
@@ -26,12 +27,15 @@
       <header>
         <nav>
             <ul class="logo-header">
-                <li><img src="https://ucarecdn.com/cca2fa4e-d115-4a06-a3e0-634e713c9038/" class="logo-img" alt=""> 
+
+                <li class="img-title">
+                        <img src="https://ucarecdn.com/cca2fa4e-d115-4a06-a3e0-634e713c9038/" class="logo-img" alt=""> 
+    
                 </li>
                 <li><h1 class="title-header">The Afro Astro Lady</h1></li>
             </ul>
             <ul class="nav-items">
-                <li> <a href="#">About</a></li>
+                <li> <a href="about.html">About</a></li>
                 <li><a href="#form-container">Book a Reading</a></li>
             </ul>
         </nav>
@@ -53,14 +57,15 @@
                 <input type="text" id="state" name="state" placeholder="State of Birth " required>
 
                 <input type="text" id="country" name="country" placeholder="Country of Birth" required>
-                <label for="birthCert" class="label">To ensure your reading is as accurate as possible, we'll need your exact birth time. Do you have a copy of your birth certificate? (If no, that's perfectly fine. I'll help you order one from the state you were born.)</label>
+                <label for="birthCert" class="label">To ensure your reading is as accurate as possible, we'll need your exact birth time. </label>
+                   <label for="birthCert"> Do you have a copy of your birth certificate? (If no, that's perfectly fine. I'll help you order one from the state you were born.)</label>
                 <select id="birthCert" name="select">
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
                 
                 <textarea placeholder="What is driving you to want to have this reading?" class="form" name="message" rows="10" required></textarea>
-                <input type="tel" name="" id="" placeholder="000-000-0000">
+                <input type="tel" name="" id="" placeholder="Phone Number">
                 <button id="submit">Submit</button>
             </div>
         </form>
@@ -68,27 +73,37 @@
 
     <section class="s1">
         <h1 class="sub-title">What Happens to the Information You Send</h1>
-        <p class="light-text words">
+        <p class="words">
             You details are sent straight to my email. I begin to map out your past, present obsticals, and future turmoils and succeses. Minim VHS bicycle rights green juice cray. Seitan single-origin coffee consectetur gochujang. Twee photo booth asymmetrical, green juice anim echo park aliqua fixie ut post-ironic. Dolore forage in microdosing nisi glossier. XOXO fingerstache woke, microdosing scenester salvia selvage chambray slow-carb sunt vinyl laboris. XOXO biodiesel eu, +1 squid asymmetrical gastropub swag snackwave flexitarian. </p>
 
-        <p class="light-text words">Occupy microdosing shoreditch offal. Veniam wolf irony meggings air plant tacos. Vaporware thundercats trust fund +1 keffiyeh la croix austin succulents yr freegan. Cred kombucha vaporware minim, hoodie fugiat lomo prism PBR&B roof party aesthetic consectetur. Yuccie swag ethical cliche snackwave chicharrones, post-ironic palo santo ea literally direct trade hoodie dolore culpa consequat. </p>
+        <p class="words">Occupy microdosing shoreditch offal. Veniam wolf irony meggings air plant tacos. Vaporware thundercats trust fund +1 keffiyeh la croix austin succulents yr freegan. Cred kombucha vaporware minim, hoodie fugiat lomo prism PBR&B roof party aesthetic consectetur. Yuccie swag ethical cliche snackwave chicharrones, post-ironic palo santo ea literally direct trade hoodie dolore culpa consequat. </p>
 
     </section>
 
     <section class="s2">
         <h1 class="sub-title">What to Expect During a Reading</h1>
-        <p class="dark-text words">Tattooed incididunt chambray jianbing. Shaman chartreuse authentic, humblebrag ut beard lorem hot chicken knausgaard 3 wolf moon jean shorts tempor. Photo booth pitchfork small batch af, direct trade magna art party seitan. Aliqua man braid chambray waistcoat, put a bird on it selfies roof party normcore fashion axe anim. </p>
-        <p class="dark-text words">Dummy text? More like dummy thicc text, amirite?</p>
+        <p class="words">Tattooed incididunt chambray jianbing. Shaman chartreuse authentic, humblebrag ut beard lorem hot chicken knausgaard 3 wolf moon jean shorts tempor. Photo booth pitchfork small batch af, direct trade magna art party seitan. Aliqua man braid chambray waistcoat, put a bird on it selfies roof party normcore fashion axe anim. </p>
+        <p class="words">Dummy text? More like dummy thicc text, amirite?</p>
     </section>
 
  <footer class="footer">
      <div class="footer-content">
-    <p id="footerText"> &copy; The Afro Astro Lady </p> 
-    <p> Transaction Currency: USD </p>  
-    <a href="https://theafroastrolady.com/privacy-policy">Privacy Policy</a>
+        <p id="footerText"> &copy; The Afro Astro Lady </p> 
+        <p> Transaction Currency: USD </p>  
+        <a href="https://theafroastrolady.com/privacy-policy" class="link">Privacy Policy</a>
+        <div class="contact-container">
+            <a href="#" class="twitter tab"><img src="https://ucarecdn.com/6a3296aa-f0f6-493d-8419-9be33efb97ec/Twitter.png" class=" link-logo" alt="The Afro Astro Lady's Twitter"></a>
+            <a href="#" class="facebook tab"><img src="https://ucarecdn.com/9b13411b-af8a-4f2b-ae84-6f5c1694b7d6/Facebook.png" class=" link-logo" alt="The Afro Astro Lady's Facebook Page"></a>
+            <a href="#" class="instagram tab"><img src="https://ucarecdn.com/83a89be4-a3a1-4276-a667-1bc6d1a5f0b4/Instagram.png" class="link-logo" alt="The Afro Astro Lady's Instagram"></a>
+        </div>
+      
+        <!-- <div class="contact-container"> 
+                    <a href="#" class="twitter tab"><img src="https://ucarecdn.com/6a3296aa-f0f6-493d-8419-9be33efb97ec/Twitter.png" class=" link-logo" alt="The Afro Astro Lady's Twitter"></a>
+                    <a href="#" class="facebook tab"><img src="https://ucarecdn.com/9b13411b-af8a-4f2b-ae84-6f5c1694b7d6/Facebook.png" class=" link-logo" alt="The Afro Astro Lady's Facebook Page"></a>
+                    <a href="#" class="devto tab"><img src="https://ucarecdn.com/83a89be4-a3a1-4276-a667-1bc6d1a5f0b4/Instagram.png" class="link-logo" alt="The Afro Astro Lady's Instagram"></a>
+                </div> -->
 </div>
- </footer>       
-    
+ </footer>      
 </body>
 </html>
 
