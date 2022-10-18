@@ -18,7 +18,8 @@ padding-right: 5%;
 }
 
 .logo-img{
-  width: 5rem;
+  width: 80px;
+  height: 80px;
 }
 
 nav {
@@ -115,9 +116,13 @@ section {
   padding: 0;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 915px) {
   nav{
     flex-direction: row wrap;
+  }
+  .logo-img{
+    width: 5rem;
+    height: auto;
   }
   .s1, .s2{
     margin: 0% 35%;
